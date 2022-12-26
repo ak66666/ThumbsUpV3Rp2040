@@ -3498,27 +3498,6 @@ Text GLabel 12300 7150 0    50   Input ~ 0
 RTX
 Wire Wire Line
 	12300 7150 12400 7150
-$Comp
-L STX-3501-3N:STX-3501-3N J36
-U 1 1 63D573AD
-P 5350 8200
-F 0 "J36" H 5750 8465 50  0000 C CNN
-F 1 "STX-3501-3N" H 5750 8374 50  0000 C CNN
-F 2 "STX35013N" H 6000 8300 50  0001 L CNN
-F 3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ae9d1df0991347f2f81145ba35ca04dc.pdf" H 6000 8200 50  0001 L CNN
-F 4 "Phone Connectors 3.5mm S LUGS STEREO 3P THRU HOLE" H 6000 8100 50  0001 L CNN "Description"
-F 5 "5" H 6000 8000 50  0001 L CNN "Height"
-F 6 "Kycon" H 6000 7900 50  0001 L CNN "Manufacturer_Name"
-F 7 "STX-3501-3N" H 6000 7800 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "806-STX-3501-3N" H 6000 7700 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Kycon/STX-3501-3N?qs=BBNwCsfFaznpJt4o1Jp%2FTg%3D%3D" H 6000 7600 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 6000 7500 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 6000 7400 50  0001 L CNN "Arrow Price/Stock"
-F 12 "" H 6000 7300 50  0001 L CNN "Mouser Testing Part Number"
-F 13 "" H 6000 7200 50  0001 L CNN "Mouser Testing Price/Stock"
-	1    5350 8200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2250 7200 2100 7200
 Connection ~ 2100 7200
@@ -3664,24 +3643,113 @@ NoConn ~ 21650 11250
 NoConn ~ 21750 11250
 NoConn ~ 21850 11250
 $Comp
-L STX-3501-3N:STX-3501-3N J?
+L STX-3501-3N:STX-3501-3N J46
 U 1 1 63F7C0D7
-P 14900 8450
-F 0 "J?" H 15300 8715 50  0000 C CNN
-F 1 "STX-3501-3N" H 15300 8624 50  0000 C CNN
-F 2 "STX35013N" H 15550 8550 50  0001 L CNN
-F 3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ae9d1df0991347f2f81145ba35ca04dc.pdf" H 15550 8450 50  0001 L CNN
-F 4 "Phone Connectors 3.5mm S LUGS STEREO 3P THRU HOLE" H 15550 8350 50  0001 L CNN "Description"
-F 5 "5" H 15550 8250 50  0001 L CNN "Height"
-F 6 "Kycon" H 15550 8150 50  0001 L CNN "Manufacturer_Name"
-F 7 "STX-3501-3N" H 15550 8050 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "806-STX-3501-3N" H 15550 7950 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Kycon/STX-3501-3N?qs=BBNwCsfFaznpJt4o1Jp%2FTg%3D%3D" H 15550 7850 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 15550 7750 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 15550 7650 50  0001 L CNN "Arrow Price/Stock"
-F 12 "" H 15550 7550 50  0001 L CNN "Mouser Testing Part Number"
-F 13 "" H 15550 7450 50  0001 L CNN "Mouser Testing Price/Stock"
-	1    14900 8450
+P 15100 8050
+F 0 "J46" V 15454 8178 50  0000 L CNN
+F 1 "STX-3501-3N" V 15545 8178 50  0000 L CNN
+F 2 "STX35013N" H 15750 8150 50  0001 L CNN
+F 3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ae9d1df0991347f2f81145ba35ca04dc.pdf" H 15750 8050 50  0001 L CNN
+F 4 "Phone Connectors 3.5mm S LUGS STEREO 3P THRU HOLE" H 15750 7950 50  0001 L CNN "Description"
+F 5 "5" H 15750 7850 50  0001 L CNN "Height"
+F 6 "Kycon" H 15750 7750 50  0001 L CNN "Manufacturer_Name"
+F 7 "STX-3501-3N" H 15750 7650 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "806-STX-3501-3N" H 15750 7550 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Kycon/STX-3501-3N?qs=BBNwCsfFaznpJt4o1Jp%2FTg%3D%3D" H 15750 7450 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 15750 7350 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 15750 7250 50  0001 L CNN "Arrow Price/Stock"
+F 12 "" H 15750 7150 50  0001 L CNN "Mouser Testing Part Number"
+F 13 "" H 15750 7050 50  0001 L CNN "Mouser Testing Price/Stock"
+	1    15100 8050
+	0    1    1    0   
+$EndComp
+$Comp
+L STX-3501-3N:STX-3501-3N J36
+U 1 1 63D573AD
+P 4650 8100
+F 0 "J36" V 5004 8228 50  0000 L CNN
+F 1 "STX-3501-3N" V 5095 8228 50  0000 L CNN
+F 2 "STX35013N" H 5300 8200 50  0001 L CNN
+F 3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ae9d1df0991347f2f81145ba35ca04dc.pdf" H 5300 8100 50  0001 L CNN
+F 4 "Phone Connectors 3.5mm S LUGS STEREO 3P THRU HOLE" H 5300 8000 50  0001 L CNN "Description"
+F 5 "5" H 5300 7900 50  0001 L CNN "Height"
+F 6 "Kycon" H 5300 7800 50  0001 L CNN "Manufacturer_Name"
+F 7 "STX-3501-3N" H 5300 7700 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "806-STX-3501-3N" H 5300 7600 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Kycon/STX-3501-3N?qs=BBNwCsfFaznpJt4o1Jp%2FTg%3D%3D" H 5300 7500 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 5300 7400 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 5300 7300 50  0001 L CNN "Arrow Price/Stock"
+F 12 "" H 5300 7200 50  0001 L CNN "Mouser Testing Part Number"
+F 13 "" H 5300 7100 50  0001 L CNN "Mouser Testing Price/Stock"
+	1    4650 8100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4250 8100 4550 8100
+$Comp
+L power:GND #PWR?
+U 1 1 641658E3
+P 4850 8100
+F 0 "#PWR?" H 4850 7850 50  0001 C CNN
+F 1 "GND" H 4855 7927 50  0000 C CNN
+F 2 "" H 4850 8100 50  0001 C CNN
+F 3 "" H 4850 8100 50  0001 C CNN
+	1    4850 8100
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4650 8100 4850 8100
+$Comp
+L power:+3.3V #PWR?
+U 1 1 641956AA
+P 4850 8900
+F 0 "#PWR?" H 4850 8750 50  0001 C CNN
+F 1 "+3.3V" H 4865 9073 50  0000 C CNN
+F 2 "" H 4850 8900 50  0001 C CNN
+F 3 "" H 4850 8900 50  0001 C CNN
+	1    4850 8900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 8900 4850 8900
+Text GLabel 4350 8100 3    50   Input ~ 0
+L-TIP
+Text GLabel 4850 8100 2    50   Input ~ 0
+L-BASE
+Text GLabel 4850 8900 2    50   Input ~ 0
+L-RING1
+Wire Wire Line
+	14550 8050 15000 8050
+$Comp
+L power:+3.3V #PWR?
+U 1 1 64225663
+P 15350 8850
+F 0 "#PWR?" H 15350 8700 50  0001 C CNN
+F 1 "+3.3V" H 15365 9023 50  0000 C CNN
+F 2 "" H 15350 8850 50  0001 C CNN
+F 3 "" H 15350 8850 50  0001 C CNN
+	1    15350 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64226D4D
+P 15350 8050
+F 0 "#PWR?" H 15350 7800 50  0001 C CNN
+F 1 "GND" H 15355 7877 50  0000 C CNN
+F 2 "" H 15350 8050 50  0001 C CNN
+F 3 "" H 15350 8050 50  0001 C CNN
+	1    15350 8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15100 8050 15350 8050
+Wire Wire Line
+	15100 8850 15350 8850
+Text GLabel 14700 8050 3    50   Input ~ 0
+R-TIP
+Text GLabel 15350 8050 2    50   Input ~ 0
+R-BASE
+Text GLabel 15350 8850 2    50   Input ~ 0
+R-RING1
 $EndSCHEMATC
