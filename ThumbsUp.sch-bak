@@ -900,13 +900,13 @@ $EndComp
 $Comp
 L Connector:Conn_01x04_Male J4
 U 1 1 628F6492
-P 7650 14700
-F 0 "J4" V 7712 14844 50  0000 L CNN
-F 1 "Conn_01x04_Male" V 7803 14844 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7650 14700 50  0001 C CNN
-F 3 "~" H 7650 14700 50  0001 C CNN
-	1    7650 14700
-	0    1    1    0   
+P 7550 14700
+F 0 "J4" V 7612 14844 50  0000 L CNN
+F 1 "Conn_01x04_Male" V 7703 14844 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7550 14700 50  0001 C CNN
+F 3 "~" H 7550 14700 50  0001 C CNN
+	1    7550 14700
+	0    -1   1    0   
 $EndComp
 $Comp
 L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX30
@@ -1047,33 +1047,25 @@ NoConn ~ 21600 13150
 $Comp
 L Connector:Conn_01x04_Female J15
 U 1 1 6225ECEC
-P 21650 13600
-F 0 "J15" V 21496 13748 50  0000 L CNN
-F 1 "Raiser_Female" V 21587 13748 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 21650 13600 50  0001 C CNN
-F 3 "~" H 21650 13600 50  0001 C CNN
-	1    21650 13600
-	0    1    1    0   
+P 5600 13000
+F 0 "J15" V 5700 13050 50  0000 L CNN
+F 1 "Raiser_Female" V 5537 13148 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 5600 13000 50  0001 C CNN
+F 3 "~" H 5600 13000 50  0001 C CNN
+	1    5600 13000
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x04_Male J16
 U 1 1 6225ECF6
-P 21650 13750
-F 0 "J16" V 21712 13894 50  0000 L CNN
-F 1 "Raiser_Male" V 21803 13894 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 21650 13750 50  0001 C CNN
-F 3 "~" H 21650 13750 50  0001 C CNN
-	1    21650 13750
-	0    1    1    0   
+P 6150 13000
+F 0 "J16" V 6050 13050 50  0000 L CNN
+F 1 "Raiser_Male" V 6303 13144 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6150 13000 50  0001 C CNN
+F 3 "~" H 6150 13000 50  0001 C CNN
+	1    6150 13000
+	1    0    0    -1  
 $EndComp
-NoConn ~ 21450 13400
-NoConn ~ 21550 13400
-NoConn ~ 21650 13400
-NoConn ~ 21750 13400
-NoConn ~ 21450 13950
-NoConn ~ 21550 13950
-NoConn ~ 21650 13950
-NoConn ~ 21750 13950
 Wire Wire Line
 	2200 11650 2200 12000
 Wire Wire Line
@@ -1120,34 +1112,23 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x04_Male J7
 U 1 1 6355EACB
-P 6150 13100
-F 0 "J7" H 6212 13244 50  0000 L CNN
-F 1 "Conn_01x04_Male" H 6303 13244 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6150 13100 50  0001 C CNN
-F 3 "~" H 6150 13100 50  0001 C CNN
-	1    6150 13100
+P 6150 13950
+F 0 "J7" H 6212 14094 50  0000 L CNN
+F 1 "Conn_01x04_Male" H 6303 14094 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6150 13950 50  0001 C CNN
+F 3 "~" H 6150 13950 50  0001 C CNN
+	1    6150 13950
 	1    0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x04_Male J2
 U 1 1 63651670
-P 6150 12700
-F 0 "J2" H 6212 12844 50  0000 L CNN
-F 1 "Conn_01x04_Male" H 6303 12844 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6150 12700 50  0001 C CNN
-F 3 "~" H 6150 12700 50  0001 C CNN
-	1    6150 12700
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x04_Female J21
-U 1 1 63650D67
-P 5600 12700
-F 0 "J21" H 5446 12848 50  0000 L CNN
-F 1 "Conn_01x04_Female" H 5537 12848 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 5600 12700 50  0001 C CNN
-F 3 "~" H 5600 12700 50  0001 C CNN
-	1    5600 12700
+P 6150 12300
+F 0 "J2" H 5950 12250 50  0000 L CNN
+F 1 "Conn_01x04_Male" V 6100 12000 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6150 12300 50  0001 C CNN
+F 3 "~" H 6150 12300 50  0001 C CNN
+	1    6150 12300
 	1    0    0    1   
 $EndComp
 $Comp
@@ -2119,12 +2100,12 @@ K_TAB
 $Comp
 L Connector:Conn_01x04_Female J22
 U 1 1 6355FF0A
-P 5600 13100
-F 0 "J22" V 5446 13248 50  0000 L CNN
-F 1 "Conn_01x04_Female" H 5537 13248 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 5600 13100 50  0001 C CNN
-F 3 "~" H 5600 13100 50  0001 C CNN
-	1    5600 13100
+P 5650 13950
+F 0 "J22" V 5496 14098 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 5587 14098 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 5650 13950 50  0001 C CNN
+F 3 "~" H 5650 13950 50  0001 C CNN
+	1    5650 13950
 	1    0    0    1   
 $EndComp
 Text GLabel 6350 13100 2    50   Input ~ 0
@@ -2205,18 +2186,16 @@ K_RSE
 $Comp
 L Connector:Conn_01x04_Female J3
 U 1 1 628F3D37
-P 7650 14550
-F 0 "J3" V 7496 14698 50  0000 L CNN
-F 1 "Conn_01x04_Female" V 7587 14698 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 7650 14550 50  0001 C CNN
-F 3 "~" H 7650 14550 50  0001 C CNN
-	1    7650 14550
-	0    1    1    0   
+P 7550 14550
+F 0 "J3" V 7396 14698 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 7487 14698 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 7550 14550 50  0001 C CNN
+F 3 "~" H 7550 14550 50  0001 C CNN
+	1    7550 14550
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	8100 15650 8100 14900
-Wire Wire Line
-	8100 14900 7750 14900
 NoConn ~ 7650 14350
 NoConn ~ 7650 14900
 Wire Wire Line
@@ -3566,33 +3545,14 @@ NoConn ~ 21700 10450
 $Comp
 L Connector:Conn_01x04_Female J44
 U 1 1 63F46695
-P 21750 10900
-F 0 "J44" V 21596 11048 50  0000 L CNN
-F 1 "Raiser_Female" V 21687 11048 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 21750 10900 50  0001 C CNN
-F 3 "~" H 21750 10900 50  0001 C CNN
-	1    21750 10900
-	0    1    1    0   
+P 5600 12700
+F 0 "J44" V 5700 12600 50  0000 L CNN
+F 1 "Raiser_Female" V 5537 12848 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 5600 12700 50  0001 C CNN
+F 3 "~" H 5600 12700 50  0001 C CNN
+	1    5600 12700
+	1    0    0    1   
 $EndComp
-$Comp
-L Connector:Conn_01x04_Male J45
-U 1 1 63F4669B
-P 21750 11050
-F 0 "J45" V 21812 11194 50  0000 L CNN
-F 1 "Raiser_Male" V 21903 11194 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 21750 11050 50  0001 C CNN
-F 3 "~" H 21750 11050 50  0001 C CNN
-	1    21750 11050
-	0    1    1    0   
-$EndComp
-NoConn ~ 21550 10700
-NoConn ~ 21650 10700
-NoConn ~ 21750 10700
-NoConn ~ 21850 10700
-NoConn ~ 21550 11250
-NoConn ~ 21650 11250
-NoConn ~ 21750 11250
-NoConn ~ 21850 11250
 $Comp
 L STX-3501-3N:STX-3501-3N J46
 U 1 1 63F7C0D7
@@ -3745,25 +3705,14 @@ F 3 "~" H 12450 12150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x04_Female J20
-U 1 1 6364D01C
-P 5600 12200
-F 0 "J20" H 5446 12348 50  0000 L CNN
-F 1 "Conn_01x04_Female" H 5537 12348 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 5600 12200 50  0001 C CNN
-F 3 "~" H 5600 12200 50  0001 C CNN
-	1    5600 12200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x04_Male J1
 U 1 1 6365127E
-P 6150 12200
-F 0 "J1" H 6212 12344 50  0000 L CNN
-F 1 "Conn_01x04_Male" H 6303 12344 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6150 12200 50  0001 C CNN
-F 3 "~" H 6150 12200 50  0001 C CNN
-	1    6150 12200
+P 6000 10700
+F 0 "J1" H 6062 10844 50  0000 L CNN
+F 1 "Conn_01x04_Male" H 6153 10844 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6000 10700 50  0001 C CNN
+F 3 "~" H 6000 10700 50  0001 C CNN
+	1    6000 10700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -3784,4 +3733,39 @@ Wire Wire Line
 	10900 14900 10900 15600
 Wire Wire Line
 	10550 14900 10900 14900
+Wire Wire Line
+	7750 14900 8100 14900
+$Comp
+L Connector:Conn_01x04_Male J45
+U 1 1 63F4669B
+P 6150 12700
+F 0 "J45" V 6050 12600 50  0000 L CNN
+F 1 "Raiser_Male" V 6303 12844 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6150 12700 50  0001 C CNN
+F 3 "~" H 6150 12700 50  0001 C CNN
+	1    6150 12700
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J21
+U 1 1 63650D67
+P 5600 12300
+F 0 "J21" H 5700 12250 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 5650 11850 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 5600 12300 50  0001 C CNN
+F 3 "~" H 5600 12300 50  0001 C CNN
+	1    5600 12300
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J20
+U 1 1 6364D01C
+P 5700 10750
+F 0 "J20" H 5546 10898 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 5850 10350 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 5700 10750 50  0001 C CNN
+F 3 "~" H 5700 10750 50  0001 C CNN
+	1    5700 10750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
