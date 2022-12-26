@@ -3753,10 +3753,10 @@ R-BASE
 Text GLabel 15350 8850 2    50   Input ~ 0
 R-RING1
 $Comp
-L Connector:Conn_01x04_Female J?
+L Connector:Conn_01x04_Female J47
 U 1 1 63AC0C46
 P 18150 12650
-F 0 "J?" V 17996 12798 50  0000 L CNN
+F 0 "J47" V 17996 12798 50  0000 L CNN
 F 1 "Raiser_Female" V 18087 12798 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 18150 12650 50  0001 C CNN
 F 3 "~" H 18150 12650 50  0001 C CNN
@@ -3764,10 +3764,10 @@ F 3 "~" H 18150 12650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x04_Male J?
+L Connector:Conn_01x04_Male J48
 U 1 1 63AC0C4C
 P 18150 12800
-F 0 "J?" V 18212 12944 50  0000 L CNN
+F 0 "J48" V 18212 12944 50  0000 L CNN
 F 1 "Raiser_Male" V 18303 12944 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 18150 12800 50  0001 C CNN
 F 3 "~" H 18150 12800 50  0001 C CNN
