@@ -2715,28 +2715,6 @@ F 3 "" H 17750 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C30
-U 1 1 63C33816
-P 18200 2350
-F 0 "C30" H 18292 2396 50  0000 L CNN
-F 1 "0.1uF" H 18292 2305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 18200 2350 50  0001 C CNN
-F 3 "~" H 18200 2350 50  0001 C CNN
-	1    18200 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C31
-U 1 1 63C3381C
-P 18500 2350
-F 0 "C31" H 18592 2396 50  0000 L CNN
-F 1 "0.1uF" H 18592 2305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 18500 2350 50  0001 C CNN
-F 3 "~" H 18500 2350 50  0001 C CNN
-	1    18500 2350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C32
 U 1 1 63C33822
 P 18800 2350
@@ -2747,17 +2725,7 @@ F 3 "~" H 18800 2350 50  0001 C CNN
 	1    18800 2350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	17900 2450 18200 2450
 Connection ~ 17900 2450
-Connection ~ 18200 2450
-Wire Wire Line
-	18200 2450 18500 2450
-Connection ~ 18500 2450
-Wire Wire Line
-	18500 2450 18800 2450
-Wire Wire Line
-	17900 2150 18200 2150
 Wire Wire Line
 	18800 2150 18800 2250
 Connection ~ 17900 2150
@@ -2766,11 +2734,6 @@ Wire Wire Line
 Connection ~ 18500 2150
 Wire Wire Line
 	18500 2150 18800 2150
-Wire Wire Line
-	18200 2250 18200 2150
-Connection ~ 18200 2150
-Wire Wire Line
-	18200 2150 18500 2150
 Wire Wire Line
 	16400 2200 16400 2150
 Wire Wire Line
@@ -3312,64 +3275,6 @@ Text GLabel 13350 6150 1    50   Input ~ 0
 RQSPI_SCLK
 Text GLabel 13450 6150 1    50   Input ~ 0
 RQSPI_SD3
-$Comp
-L Device:R R4
-U 1 1 63CCD889
-P 2100 7050
-F 0 "R4" H 2170 7096 50  0000 L CNN
-F 1 "5.1K" H 2170 7005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 2030 7050 50  0001 C CNN
-F 3 "~" H 2100 7050 50  0001 C CNN
-	1    2100 7050
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+3.3V #PWR0147
-U 1 1 63CFCBE7
-P 2100 6900
-F 0 "#PWR0147" H 2100 6750 50  0001 C CNN
-F 1 "+3.3V" H 2115 7073 50  0000 C CNN
-F 2 "" H 2100 6900 50  0001 C CNN
-F 3 "" H 2100 6900 50  0001 C CNN
-	1    2100 6900
-	1    0    0    -1  
-$EndComp
-Text GLabel 2000 7200 0    50   Input ~ 0
-TX
-Wire Wire Line
-	2000 7200 2100 7200
-$Comp
-L Device:R R5
-U 1 1 63D2BBE1
-P 12400 7000
-F 0 "R5" H 12470 7046 50  0000 L CNN
-F 1 "5.1K" H 12470 6955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 12330 7000 50  0001 C CNN
-F 3 "~" H 12400 7000 50  0001 C CNN
-	1    12400 7000
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+3.3V #PWR0148
-U 1 1 63D2BBE8
-P 12400 6850
-F 0 "#PWR0148" H 12400 6700 50  0001 C CNN
-F 1 "+3.3V" H 12415 7023 50  0000 C CNN
-F 2 "" H 12400 6850 50  0001 C CNN
-F 3 "" H 12400 6850 50  0001 C CNN
-	1    12400 6850
-	1    0    0    -1  
-$EndComp
-Text GLabel 12300 7150 0    50   Input ~ 0
-RTX
-Wire Wire Line
-	12300 7150 12400 7150
-Wire Wire Line
-	2250 7200 2100 7200
-Connection ~ 2100 7200
-Wire Wire Line
-	12550 7150 12400 7150
-Connection ~ 12400 7150
 Wire Wire Line
 	12050 5700 12050 6500
 Wire Wire Line
@@ -3492,80 +3397,65 @@ $EndComp
 $Comp
 L STX-3501-3N:STX-3501-3N J46
 U 1 1 63F7C0D7
-P 15100 8050
-F 0 "J46" V 15454 8178 50  0000 L CNN
-F 1 "STX-3501-3N" V 15545 8178 50  0000 L CNN
-F 2 "STX-3501-3N:STX35013N" H 15750 8150 50  0001 L CNN
-F 3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ae9d1df0991347f2f81145ba35ca04dc.pdf" H 15750 8050 50  0001 L CNN
-F 4 "Phone Connectors 3.5mm S LUGS STEREO 3P THRU HOLE" H 15750 7950 50  0001 L CNN "Description"
-F 5 "5" H 15750 7850 50  0001 L CNN "Height"
-F 6 "Kycon" H 15750 7750 50  0001 L CNN "Manufacturer_Name"
-F 7 "STX-3501-3N" H 15750 7650 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "806-STX-3501-3N" H 15750 7550 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Kycon/STX-3501-3N?qs=BBNwCsfFaznpJt4o1Jp%2FTg%3D%3D" H 15750 7450 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 15750 7350 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 15750 7250 50  0001 L CNN "Arrow Price/Stock"
-F 12 "" H 15750 7150 50  0001 L CNN "Mouser Testing Part Number"
-F 13 "" H 15750 7050 50  0001 L CNN "Mouser Testing Price/Stock"
-	1    15100 8050
+P 15450 8050
+F 0 "J46" V 15804 8178 50  0000 L CNN
+F 1 "STX-3501-3N" V 15895 8178 50  0000 L CNN
+F 2 "STX-3501-3N:STX35013N" H 16100 8150 50  0001 L CNN
+F 3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ae9d1df0991347f2f81145ba35ca04dc.pdf" H 16100 8050 50  0001 L CNN
+F 4 "Phone Connectors 3.5mm S LUGS STEREO 3P THRU HOLE" H 16100 7950 50  0001 L CNN "Description"
+F 5 "5" H 16100 7850 50  0001 L CNN "Height"
+F 6 "Kycon" H 16100 7750 50  0001 L CNN "Manufacturer_Name"
+F 7 "STX-3501-3N" H 16100 7650 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "806-STX-3501-3N" H 16100 7550 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Kycon/STX-3501-3N?qs=BBNwCsfFaznpJt4o1Jp%2FTg%3D%3D" H 16100 7450 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 16100 7350 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 16100 7250 50  0001 L CNN "Arrow Price/Stock"
+F 12 "" H 16100 7150 50  0001 L CNN "Mouser Testing Part Number"
+F 13 "" H 16100 7050 50  0001 L CNN "Mouser Testing Price/Stock"
+	1    15450 8050
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4250 8100 4550 8100
 $Comp
 L power:GND #PWR0149
 U 1 1 641658E3
-P 4850 8100
-F 0 "#PWR0149" H 4850 7850 50  0001 C CNN
-F 1 "GND" H 4855 7927 50  0000 C CNN
-F 2 "" H 4850 8100 50  0001 C CNN
-F 3 "" H 4850 8100 50  0001 C CNN
-	1    4850 8100
+P 5200 8100
+F 0 "#PWR0149" H 5200 7850 50  0001 C CNN
+F 1 "GND" H 5205 7927 50  0000 C CNN
+F 2 "" H 5200 8100 50  0001 C CNN
+F 3 "" H 5200 8100 50  0001 C CNN
+	1    5200 8100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4650 8100 4850 8100
+	5000 8100 5200 8100
 Wire Wire Line
-	4650 8900 4850 8900
-Text GLabel 4350 8100 3    50   Input ~ 0
+	5000 8900 5200 8900
+Text GLabel 4700 8100 3    50   Input ~ 0
 L-TIP
-Text GLabel 4850 8100 2    50   Input ~ 0
+Text GLabel 5200 8100 2    50   Input ~ 0
 L-BASE
-Text GLabel 4850 8900 2    50   Input ~ 0
+Text GLabel 5200 8900 2    50   Input ~ 0
 L-RING1
-Wire Wire Line
-	14550 8050 15000 8050
-$Comp
-L power:+3.3V #PWR0151
-U 1 1 64225663
-P 15350 8850
-F 0 "#PWR0151" H 15350 8700 50  0001 C CNN
-F 1 "+3.3V" H 15365 9023 50  0000 C CNN
-F 2 "" H 15350 8850 50  0001 C CNN
-F 3 "" H 15350 8850 50  0001 C CNN
-	1    15350 8850
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0152
 U 1 1 64226D4D
-P 15350 8050
-F 0 "#PWR0152" H 15350 7800 50  0001 C CNN
-F 1 "GND" H 15355 7877 50  0000 C CNN
-F 2 "" H 15350 8050 50  0001 C CNN
-F 3 "" H 15350 8050 50  0001 C CNN
-	1    15350 8050
+P 15700 8050
+F 0 "#PWR0152" H 15700 7800 50  0001 C CNN
+F 1 "GND" H 15705 7877 50  0000 C CNN
+F 2 "" H 15700 8050 50  0001 C CNN
+F 3 "" H 15700 8050 50  0001 C CNN
+	1    15700 8050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	15100 8050 15350 8050
+	15450 8050 15700 8050
 Wire Wire Line
-	15100 8850 15350 8850
-Text GLabel 14700 8050 3    50   Input ~ 0
+	15450 8850 15700 8850
+Text GLabel 15100 8050 3    50   Input ~ 0
 R-TIP
-Text GLabel 15350 8050 2    50   Input ~ 0
+Text GLabel 15700 8050 2    50   Input ~ 0
 R-BASE
-Text GLabel 15350 8850 2    50   Input ~ 0
+Text GLabel 15700 8850 2    50   Input ~ 0
 R-RING1
 $Comp
 L Connector:Conn_01x04_Female J47
@@ -3723,38 +3613,130 @@ F 3 "" H 19050 12500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0147
 U 1 1 63F119E5
-P 4650 8900
-F 0 "#PWR?" H 4650 8750 50  0001 C CNN
-F 1 "+5V" H 4665 9073 50  0000 C CNN
-F 2 "" H 4650 8900 50  0001 C CNN
-F 3 "" H 4650 8900 50  0001 C CNN
-	1    4650 8900
+P 5000 8900
+F 0 "#PWR0147" H 5000 8750 50  0001 C CNN
+F 1 "+5V" H 5015 9073 50  0000 C CNN
+F 2 "" H 5000 8900 50  0001 C CNN
+F 3 "" H 5000 8900 50  0001 C CNN
+	1    5000 8900
 	-1   0    0    1   
 $EndComp
-Connection ~ 4650 8900
+Connection ~ 5000 8900
 Wire Wire Line
 	4250 8000 5200 8000
 $Comp
 L STX-3501-3N:STX-3501-3N J36
 U 1 1 63D573AD
-P 4650 8100
-F 0 "J36" V 5004 8228 50  0000 L CNN
-F 1 "STX-3501-3N" V 5095 8228 50  0000 L CNN
-F 2 "STX-3501-3N:STX35013N" H 5300 8200 50  0001 L CNN
-F 3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ae9d1df0991347f2f81145ba35ca04dc.pdf" H 5300 8100 50  0001 L CNN
-F 4 "Phone Connectors 3.5mm S LUGS STEREO 3P THRU HOLE" H 5300 8000 50  0001 L CNN "Description"
-F 5 "5" H 5300 7900 50  0001 L CNN "Height"
-F 6 "Kycon" H 5300 7800 50  0001 L CNN "Manufacturer_Name"
-F 7 "STX-3501-3N" H 5300 7700 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "806-STX-3501-3N" H 5300 7600 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Kycon/STX-3501-3N?qs=BBNwCsfFaznpJt4o1Jp%2FTg%3D%3D" H 5300 7500 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 5300 7400 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 5300 7300 50  0001 L CNN "Arrow Price/Stock"
-F 12 "" H 5300 7200 50  0001 L CNN "Mouser Testing Part Number"
-F 13 "" H 5300 7100 50  0001 L CNN "Mouser Testing Price/Stock"
-	1    4650 8100
+P 5000 8100
+F 0 "J36" V 5354 8228 50  0000 L CNN
+F 1 "STX-3501-3N" V 5445 8228 50  0000 L CNN
+F 2 "STX-3501-3N:STX35013N" H 5650 8200 50  0001 L CNN
+F 3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ae9d1df0991347f2f81145ba35ca04dc.pdf" H 5650 8100 50  0001 L CNN
+F 4 "Phone Connectors 3.5mm S LUGS STEREO 3P THRU HOLE" H 5650 8000 50  0001 L CNN "Description"
+F 5 "5" H 5650 7900 50  0001 L CNN "Height"
+F 6 "Kycon" H 5650 7800 50  0001 L CNN "Manufacturer_Name"
+F 7 "STX-3501-3N" H 5650 7700 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "806-STX-3501-3N" H 5650 7600 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Kycon/STX-3501-3N?qs=BBNwCsfFaznpJt4o1Jp%2FTg%3D%3D" H 5650 7500 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 5650 7400 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 5650 7300 50  0001 L CNN "Arrow Price/Stock"
+F 12 "" H 5650 7200 50  0001 L CNN "Mouser Testing Part Number"
+F 13 "" H 5650 7100 50  0001 L CNN "Mouser Testing Price/Stock"
+	1    5000 8100
 	0    1    1    0   
 $EndComp
+$Comp
+L power:+5V #PWR0148
+U 1 1 63FA1289
+P 15450 8850
+F 0 "#PWR0148" H 15450 8700 50  0001 C CNN
+F 1 "+5V" H 15465 9023 50  0000 C CNN
+F 2 "" H 15450 8850 50  0001 C CNN
+F 3 "" H 15450 8850 50  0001 C CNN
+	1    15450 8850
+	-1   0    0    1   
+$EndComp
+Connection ~ 15450 8850
+Wire Wire Line
+	4250 8100 4400 8100
+$Comp
+L Device:R R4
+U 1 1 63C3C97D
+P 4400 8250
+F 0 "R4" H 4470 8296 50  0000 L CNN
+F 1 "DNF" H 4470 8205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4330 8250 50  0001 C CNN
+F 3 "~" H 4400 8250 50  0001 C CNN
+	1    4400 8250
+	1    0    0    -1  
+$EndComp
+Connection ~ 4400 8100
+Wire Wire Line
+	4400 8100 4900 8100
+$Comp
+L power:+3.3V #PWR0150
+U 1 1 63C3E3CC
+P 4400 8400
+F 0 "#PWR0150" H 4400 8250 50  0001 C CNN
+F 1 "+3.3V" H 4415 8573 50  0000 C CNN
+F 2 "" H 4400 8400 50  0001 C CNN
+F 3 "" H 4400 8400 50  0001 C CNN
+	1    4400 8400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 63C447F1
+P 14750 8200
+F 0 "R5" H 14820 8246 50  0000 L CNN
+F 1 "DNF" H 14820 8155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 14680 8200 50  0001 C CNN
+F 3 "~" H 14750 8200 50  0001 C CNN
+	1    14750 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0151
+U 1 1 63C447F7
+P 14750 8350
+F 0 "#PWR0151" H 14750 8200 50  0001 C CNN
+F 1 "+3.3V" H 14765 8523 50  0000 C CNN
+F 2 "" H 14750 8350 50  0001 C CNN
+F 3 "" H 14750 8350 50  0001 C CNN
+	1    14750 8350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14550 8050 14750 8050
+Connection ~ 14750 8050
+Wire Wire Line
+	14750 8050 15350 8050
+Wire Wire Line
+	18500 2450 18800 2450
+Connection ~ 18500 2450
+$Comp
+L Device:C_Small C31
+U 1 1 63C3381C
+P 18500 2350
+F 0 "C31" H 18592 2396 50  0000 L CNN
+F 1 "0.1uF" H 18592 2305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 18500 2350 50  0001 C CNN
+F 3 "~" H 18500 2350 50  0001 C CNN
+	1    18500 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17900 2450 18500 2450
+Wire Wire Line
+	17900 2150 18500 2150
+Text GLabel 14550 7150 2    50   Input ~ 0
+K_K
+Text GLabel 14550 7250 2    50   Input ~ 0
+K_L
+Text GLabel 14550 7350 2    50   Input ~ 0
+K_SEMICOL
+Text GLabel 14550 7450 2    50   Input ~ 0
+K_ENT
 $EndSCHEMATC
