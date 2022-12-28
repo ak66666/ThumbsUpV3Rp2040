@@ -3141,29 +3141,6 @@ F 3 "" H 11950 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 11950 4600
-Wire Wire Line
-	12050 9600 12050 7950
-$Comp
-L RP2040:RP2040 IC3
-U 1 1 63C3395F
-P 12550 7050
-F 0 "IC3" H 14594 6496 50  0000 L CNN
-F 1 "RP2040" H 13400 6400 50  0000 L CNN
-F 2 "RP2040:QFN40P700X700X90-57N-D" H 14400 7750 50  0001 L CNN
-F 3 "https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf" H 14400 7650 50  0001 L CNN
-F 4 "Microcontroller in QFN Package" H 14400 7550 50  0001 L CNN "Description"
-F 5 "0.9" H 14400 7450 50  0001 L CNN "Height"
-F 6 "RASPBERRY-PI" H 14400 7350 50  0001 L CNN "Manufacturer_Name"
-F 7 "RP2040" H 14400 7250 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "" H 14400 7150 50  0001 L CNN "Mouser Part Number"
-F 9 "" H 14400 7050 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 14400 6950 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 14400 6850 50  0001 L CNN "Arrow Price/Stock"
-F 12 "" H 14400 6750 50  0001 L CNN "Mouser Testing Part Number"
-F 13 "" H 14400 6650 50  0001 L CNN "Mouser Testing Price/Stock"
-	1    12550 7050
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_Small R11
 U 1 1 63C33975
@@ -3282,8 +3259,6 @@ Wire Wire Line
 Wire Wire Line
 	12550 6500 12050 6500
 Connection ~ 12050 6500
-Wire Wire Line
-	12050 6500 12050 7950
 Wire Wire Line
 	1750 5750 1750 6600
 Wire Wire Line
@@ -3451,7 +3426,7 @@ Wire Wire Line
 	15450 8050 15700 8050
 Wire Wire Line
 	15450 8850 15700 8850
-Text GLabel 15100 8050 3    50   Input ~ 0
+Text GLabel 15100 8050 1    50   Input ~ 0
 R-TIP
 Text GLabel 15700 8050 2    50   Input ~ 0
 R-BASE
@@ -3689,30 +3664,25 @@ $EndComp
 $Comp
 L Device:R R5
 U 1 1 63C447F1
-P 14750 8200
-F 0 "R5" H 14820 8246 50  0000 L CNN
-F 1 "DNF" H 14820 8155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 14680 8200 50  0001 C CNN
-F 3 "~" H 14750 8200 50  0001 C CNN
-	1    14750 8200
+P 15000 8200
+F 0 "R5" H 15070 8246 50  0000 L CNN
+F 1 "DNF" H 15070 8155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 14930 8200 50  0001 C CNN
+F 3 "~" H 15000 8200 50  0001 C CNN
+	1    15000 8200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0151
 U 1 1 63C447F7
-P 14750 8350
-F 0 "#PWR0151" H 14750 8200 50  0001 C CNN
-F 1 "+3.3V" H 14765 8523 50  0000 C CNN
-F 2 "" H 14750 8350 50  0001 C CNN
-F 3 "" H 14750 8350 50  0001 C CNN
-	1    14750 8350
+P 15000 8350
+F 0 "#PWR0151" H 15000 8200 50  0001 C CNN
+F 1 "+3.3V" H 15015 8523 50  0000 C CNN
+F 2 "" H 15000 8350 50  0001 C CNN
+F 3 "" H 15000 8350 50  0001 C CNN
+	1    15000 8350
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	14550 8050 14750 8050
-Connection ~ 14750 8050
-Wire Wire Line
-	14750 8050 15350 8050
 Wire Wire Line
 	18500 2450 18800 2450
 Connection ~ 18500 2450
@@ -3743,4 +3713,58 @@ Text GLabel 14550 7550 2    50   Input ~ 0
 K_RSFT
 Text GLabel 14550 7650 2    50   Input ~ 0
 K_LWR
+Text GLabel 14550 8150 2    50   Input ~ 0
+K_MNU
+Text GLabel 14550 8250 2    50   Input ~ 0
+K_RALT
+Wire Wire Line
+	12050 9600 12050 7950
+Wire Wire Line
+	12050 6500 12050 7950
+$Comp
+L RP2040:RP2040 IC3
+U 1 1 63C3395F
+P 12550 7050
+F 0 "IC3" H 14594 6496 50  0000 L CNN
+F 1 "RP2040" H 13400 6400 50  0000 L CNN
+F 2 "RP2040:QFN40P700X700X90-57N-D" H 14400 7750 50  0001 L CNN
+F 3 "https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf" H 14400 7650 50  0001 L CNN
+F 4 "Microcontroller in QFN Package" H 14400 7550 50  0001 L CNN "Description"
+F 5 "0.9" H 14400 7450 50  0001 L CNN "Height"
+F 6 "RASPBERRY-PI" H 14400 7350 50  0001 L CNN "Manufacturer_Name"
+F 7 "RP2040" H 14400 7250 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 14400 7150 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 14400 7050 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 14400 6950 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 14400 6850 50  0001 L CNN "Arrow Price/Stock"
+F 12 "" H 14400 6750 50  0001 L CNN "Mouser Testing Part Number"
+F 13 "" H 14400 6650 50  0001 L CNN "Mouser Testing Price/Stock"
+	1    12550 7050
+	1    0    0    -1  
+$EndComp
+Connection ~ 15000 8050
+Wire Wire Line
+	15000 8050 15350 8050
+Wire Wire Line
+	14550 8050 15000 8050
+Text GLabel 12950 6150 1    50   Input ~ 0
+K_BSPC
+Text GLabel 12550 7150 0    50   Input ~ 0
+K_P
+Text GLabel 12550 7250 0    50   Input ~ 0
+K_O
+Text GLabel 12550 7350 0    50   Input ~ 0
+K_I
+Text GLabel 12550 7450 0    50   Input ~ 0
+K_H
+Text GLabel 12550 7550 0    50   Input ~ 0
+K_Y
+Text GLabel 12550 7650 0    50   Input ~ 0
+K_N
+Text GLabel 12550 7750 0    50   Input ~ 0
+K_M
+Text GLabel 12550 7850 0    50   Input ~ 0
+K_J
+Text GLabel 12550 8050 0    50   Input ~ 0
+K_U
 $EndSCHEMATC
