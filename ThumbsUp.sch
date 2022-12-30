@@ -173,26 +173,7 @@ F 3 "~" H 3150 1300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3300 1300 3600 1300
-$Comp
-L Device:C_Small C1
-U 1 1 6197A27B
-P 6450 2350
-F 0 "C1" H 6542 2396 50  0000 L CNN
-F 1 "0.1uF" H 6542 2305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6450 2350 50  0001 C CNN
-F 3 "~" H 6450 2350 50  0001 C CNN
-	1    6450 2350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6800 2500 6450 2500
-Wire Wire Line
-	6450 2500 6450 2450
 Connection ~ 6800 2500
-Wire Wire Line
-	6800 2200 6450 2200
-Wire Wire Line
-	6450 2200 6450 2250
 Connection ~ 6800 2200
 Wire Wire Line
 	6200 5950 6200 6150
@@ -1466,13 +1447,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 2250 6100 2200
 Wire Wire Line
-	6100 2200 6450 2200
-Connection ~ 6450 2200
-Wire Wire Line
 	6100 2450 6100 2500
-Wire Wire Line
-	6100 2500 6450 2500
-Connection ~ 6450 2500
 $Comp
 L Device:C_Small C13
 U 1 1 63A733C9
@@ -1793,12 +1768,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0117
 U 1 1 63E16CE5
-P 3750 10150
-F 0 "#PWR0117" H 3750 9900 50  0001 C CNN
-F 1 "GND" H 3755 9977 50  0000 C CNN
-F 2 "" H 3750 10150 50  0001 C CNN
-F 3 "" H 3750 10150 50  0001 C CNN
-	1    3750 10150
+P 3850 10150
+F 0 "#PWR0117" H 3850 9900 50  0001 C CNN
+F 1 "GND" H 3855 9977 50  0000 C CNN
+F 2 "" H 3850 10150 50  0001 C CNN
+F 3 "" H 3850 10150 50  0001 C CNN
+	1    3850 10150
 	1    0    0    -1  
 $EndComp
 Text GLabel 2750 6200 1    50   Input ~ 0
@@ -1833,13 +1808,11 @@ F 13 "" H 4700 8350 50  0001 L CNN "Mouser Testing Price/Stock"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4050 9350 4200 9350
+	4050 9350 4150 9350
 Wire Wire Line
 	4200 9350 4200 10150
 Wire Wire Line
-	4200 10150 4050 10150
-Wire Wire Line
-	3750 10150 3950 10150
+	3750 10150 3850 10150
 $Comp
 L TL1016AAF220QG:TL1016AAF220QG BOOTSEL1
 U 1 1 63B7CD0C
@@ -1993,13 +1966,7 @@ Wire Wire Line
 	2350 2000 2450 2000
 Connection ~ 2350 2000
 Wire Wire Line
-	3650 9350 3650 9200
-Wire Wire Line
-	3650 9350 3750 9350
-Wire Wire Line
 	3750 10150 3750 9350
-Connection ~ 3750 10150
-Connection ~ 3750 9350
 Wire Wire Line
 	3750 9350 3950 9350
 Wire Wire Line
@@ -3056,12 +3023,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0143
 U 1 1 63C338F1
-P 14050 10100
-F 0 "#PWR0143" H 14050 9850 50  0001 C CNN
-F 1 "GND" H 14055 9927 50  0000 C CNN
-F 2 "" H 14050 10100 50  0001 C CNN
-F 3 "" H 14050 10100 50  0001 C CNN
-	1    14050 10100
+P 14150 10100
+F 0 "#PWR0143" H 14150 9850 50  0001 C CNN
+F 1 "GND" H 14155 9927 50  0000 C CNN
+F 2 "" H 14150 10100 50  0001 C CNN
+F 3 "" H 14150 10100 50  0001 C CNN
+	1    14150 10100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3086,13 +3053,9 @@ F 13 "" H 15000 8300 50  0001 L CNN "Mouser Testing Price/Stock"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	14350 9300 14500 9300
+	14350 9300 14400 9300
 Wire Wire Line
 	14500 9300 14500 10100
-Wire Wire Line
-	14500 10100 14350 10100
-Wire Wire Line
-	14050 10100 14250 10100
 $Comp
 L TL1016AAF220QG:TL1016AAF220QG BOOTSEL2
 U 1 1 63C3393B
@@ -3222,16 +3185,6 @@ Connection ~ 12650 1850
 Wire Wire Line
 	12650 1950 12750 1950
 Connection ~ 12650 1950
-Wire Wire Line
-	13950 9300 13950 9150
-Wire Wire Line
-	13950 9300 14050 9300
-Wire Wire Line
-	14050 10100 14050 9300
-Connection ~ 14050 10100
-Connection ~ 14050 9300
-Wire Wire Line
-	14050 9300 14250 9300
 Text GLabel 13100 3900 0    50   Input ~ 0
 RQSPI_SD1
 Text GLabel 13100 4000 0    50   Input ~ 0
@@ -3405,7 +3358,7 @@ Wire Wire Line
 	5000 8100 5200 8100
 Wire Wire Line
 	5000 8900 5200 8900
-Text GLabel 4700 8100 3    50   Input ~ 0
+Text GLabel 4750 8100 3    50   Input ~ 0
 L-TIP
 Text GLabel 5200 8100 2    50   Input ~ 0
 L-BASE
@@ -3634,31 +3587,26 @@ F 3 "" H 15450 8850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Connection ~ 15450 8850
-Wire Wire Line
-	4250 8100 4400 8100
 $Comp
 L Device:R R4
 U 1 1 63C3C97D
-P 4400 8250
-F 0 "R4" H 4470 8296 50  0000 L CNN
-F 1 "DNF" H 4470 8205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4330 8250 50  0001 C CNN
-F 3 "~" H 4400 8250 50  0001 C CNN
-	1    4400 8250
-	1    0    0    -1  
+P 4650 8250
+F 0 "R4" H 4720 8296 50  0000 L CNN
+F 1 "DNF" H 4720 8205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4580 8250 50  0001 C CNN
+F 3 "~" H 4650 8250 50  0001 C CNN
+	1    4650 8250
+	-1   0    0    1   
 $EndComp
-Connection ~ 4400 8100
-Wire Wire Line
-	4400 8100 4900 8100
 $Comp
 L power:+3.3V #PWR0150
 U 1 1 63C3E3CC
-P 4400 8400
-F 0 "#PWR0150" H 4400 8250 50  0001 C CNN
-F 1 "+3.3V" H 4415 8573 50  0000 C CNN
-F 2 "" H 4400 8400 50  0001 C CNN
-F 3 "" H 4400 8400 50  0001 C CNN
-	1    4400 8400
+P 4650 8400
+F 0 "#PWR0150" H 4650 8250 50  0001 C CNN
+F 1 "+3.3V" H 4665 8573 50  0000 C CNN
+F 2 "" H 4650 8400 50  0001 C CNN
+F 3 "" H 4650 8400 50  0001 C CNN
+	1    4650 8400
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -3767,4 +3715,83 @@ Text GLabel 12550 7850 0    50   Input ~ 0
 K_J
 Text GLabel 12550 8050 0    50   Input ~ 0
 K_U
+Wire Wire Line
+	14050 10100 14150 10100
+Wire Wire Line
+	14050 9300 14250 9300
+Wire Wire Line
+	14050 10100 14050 9300
+Wire Wire Line
+	3650 9200 3650 9300
+Wire Wire Line
+	3650 9300 4150 9300
+Wire Wire Line
+	4150 9300 4150 9350
+Connection ~ 4150 9350
+Wire Wire Line
+	4150 9350 4200 9350
+Connection ~ 3850 10150
+Wire Wire Line
+	3850 10150 3950 10150
+Wire Wire Line
+	4050 10150 4200 10150
+Wire Wire Line
+	13950 9150 13950 9250
+Wire Wire Line
+	13950 9250 14400 9250
+Wire Wire Line
+	14400 9250 14400 9300
+Connection ~ 14400 9300
+Wire Wire Line
+	14400 9300 14500 9300
+Connection ~ 14150 10100
+Wire Wire Line
+	14150 10100 14250 10100
+Wire Wire Line
+	14350 10100 14500 10100
+Text GLabel 4250 7200 2    50   Input ~ 0
+K_LSFT
+Text GLabel 4250 7300 2    50   Input ~ 0
+K_RSE
+Text GLabel 4250 7400 2    50   Input ~ 0
+K_TAB
+Text GLabel 4250 7500 2    50   Input ~ 0
+K_A
+Text GLabel 4250 7600 2    50   Input ~ 0
+K_S
+Text GLabel 4250 7700 2    50   Input ~ 0
+K_D
+Text GLabel 2850 9200 3    50   Input ~ 0
+K_ESC
+Text GLabel 2750 9200 3    50   Input ~ 0
+K_Q
+Wire Wire Line
+	4250 8100 4650 8100
+Connection ~ 4650 8100
+Wire Wire Line
+	4650 8100 4900 8100
+Text GLabel 2650 9200 3    50   Input ~ 0
+K_W
+Text GLabel 2550 9200 3    50   Input ~ 0
+K_E
+Text GLabel 2250 8400 0    50   Input ~ 0
+K_B
+Text GLabel 2250 8300 0    50   Input ~ 0
+K_G
+Text GLabel 2250 8200 0    50   Input ~ 0
+K_T
+Text GLabel 2250 8100 0    50   Input ~ 0
+K_F
+Text GLabel 2250 7900 0    50   Input ~ 0
+K_R
+Text GLabel 2250 7800 0    50   Input ~ 0
+K_V
+Wire Wire Line
+	6100 2200 6800 2200
+Wire Wire Line
+	6100 2500 6800 2500
+Text GLabel 2250 7200 0    50   Input ~ 0
+K_WIN
+Text GLabel 2250 7300 0    50   Input ~ 0
+K_LALT
 $EndSCHEMATC
