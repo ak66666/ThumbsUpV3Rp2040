@@ -3799,4 +3799,8 @@ Connection ~ 2800 3300
 Text GLabel 2800 3850 0    50   Input ~ 0
 QSPI_SSN
 Connection ~ 13100 3250
+Text GLabel 12950 6150 1    50   Input ~ 0
+RQSPI_SSN
+Text GLabel 13100 3800 0    50   Input ~ 0
+RQSPI_SSN
 $EndSCHEMATC
