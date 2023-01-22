@@ -3591,7 +3591,7 @@ U 1 1 63C3C97D
 P 4650 8250
 F 0 "R4" H 4720 8296 50  0000 L CNN
 F 1 "5.1K" H 4720 8205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4580 8250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4580 8250 50  0001 C CNN
 F 3 "~" H 4650 8250 50  0001 C CNN
 	1    4650 8250
 	-1   0    0    1   
@@ -3613,7 +3613,7 @@ U 1 1 63C447F1
 P 15000 8200
 F 0 "R5" H 15070 8246 50  0000 L CNN
 F 1 "5.1K" H 15070 8155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 14930 8200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 14930 8200 50  0001 C CNN
 F 3 "~" H 15000 8200 50  0001 C CNN
 	1    15000 8200
 	1    0    0    -1  
@@ -3782,7 +3782,7 @@ Text GLabel 2250 8100 0    50   Input ~ 0
 K_F
 Text GLabel 2250 7900 0    50   Input ~ 0
 K_R
-Text GLabel 2250 7800 0    50   Input ~ 0
+Text GLabel 2250 7400 0    50   Input ~ 0
 K_V
 Wire Wire Line
 	6100 2200 6800 2200
@@ -3802,4 +3802,57 @@ Text GLabel 12950 6150 1    50   Input ~ 0
 RQSPI_SSN
 Text GLabel 13100 3800 0    50   Input ~ 0
 RQSPI_SSN
+Text GLabel 12850 9150 3    50   Input ~ 0
+K_RCTL
+Text GLabel 12950 9150 3    50   Input ~ 0
+K_SLASH
+Text GLabel 13050 9150 3    50   Input ~ 0
+K_DOT
+Text GLabel 13150 9150 3    50   Input ~ 0
+K_COMM
+Text GLabel 2250 7500 0    50   Input ~ 0
+K_LCTL
+Text GLabel 2250 7600 0    50   Input ~ 0
+K_Z
+Text GLabel 2250 7700 0    50   Input ~ 0
+K_X
+Text GLabel 2250 7800 0    50   Input ~ 0
+K_C
+$Comp
+L Device:R R17
+U 1 1 63DB25AE
+P 4250 8550
+F 0 "R17" H 4320 8596 50  0000 L CNN
+F 1 "5.1K" H 4320 8505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4180 8550 50  0001 C CNN
+F 3 "~" H 4250 8550 50  0001 C CNN
+	1    4250 8550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR0157
+U 1 1 63DB2E0C
+P 4250 8700
+F 0 "#PWR0157" H 4250 8550 50  0001 C CNN
+F 1 "+3.3V" H 4265 8873 50  0000 C CNN
+F 2 "" H 4250 8700 50  0001 C CNN
+F 3 "" H 4250 8700 50  0001 C CNN
+	1    4250 8700
+	-1   0    0    1   
+$EndComp
+Text Notes 4150 9050 0    50   ~ 0
+Handiness Pin\nHigh -Left
+Text Notes 14450 8800 0    50   ~ 0
+Handiness Pin\nLow - Right
+$Comp
+L power:GND #PWR0158
+U 1 1 63DB80C5
+P 14550 8350
+F 0 "#PWR0158" H 14550 8100 50  0001 C CNN
+F 1 "GND" H 14555 8177 50  0000 C CNN
+F 2 "" H 14550 8350 50  0001 C CNN
+F 3 "" H 14550 8350 50  0001 C CNN
+	1    14550 8350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
