@@ -10,7 +10,7 @@ Multilevel 44 Key Split Contoured Keyboard.
 * Connects to computer from either side, halves could be used separately.
  
 ![Main view](https://github.com/ak66666/ThumbsUpV3Rp2040/blob/main/Photos/IMG_20240202_222219204_HDR.jpg )
-![Some keys are tucked under the middle PCB](https://github.com/ak66666/ThumbsUpV3Rp2040/blob/main/Photos/IMG_20240202_221640572_HDR.jpg)
+![Key caps removed ](https://github.com/ak66666/ThumbsUpV3Rp2040/blob/main/Photos/IMG_20240202_221640572_HDR.jpg)
 
 Other pictures in Photos folder.
 
