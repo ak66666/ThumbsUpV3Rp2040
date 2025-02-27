@@ -1,7 +1,3 @@
-# ThumbsUpV3Rp2040
- Split version of the Thumbs Up keyboard with RP2040 for Kailh Choc switches.
-
-
 # ThumbsUp! v3 RP2040-based 4x12 keyboard for Kailh Choc switches
 
 Multilevel 44 Key Split Contoured Keyboard.
